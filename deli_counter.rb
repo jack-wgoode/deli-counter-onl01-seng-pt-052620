@@ -2,7 +2,7 @@ def line(katz_deli)
   i = 0
   array = []
   
-  sentence = "The line is currently: "
+  sentence = "The line is currently:"
   if katz_deli.length == 0
        puts "The line is currently empty."
   else  
