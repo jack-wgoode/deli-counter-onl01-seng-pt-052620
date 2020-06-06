@@ -10,7 +10,7 @@ def line(katz_deli)
       array << " #{i+1}. #{person} " 
       i +=1
       end
-      puts "#{sentence} #{array}"
+      puts "#{sentence} #{array.join}"
   end
 end
 
