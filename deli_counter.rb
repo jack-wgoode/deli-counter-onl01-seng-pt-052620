@@ -7,7 +7,7 @@ def line(katz_deli)
        puts "The line is currently empty."
   else  
     katz_deli.each do |person| 
-      array << " #{i+1}. #{person}" 
+      array << "#{i+1}. #{person}" 
       i +=1
       end
       puts "#{sentence} #{array.join}"
