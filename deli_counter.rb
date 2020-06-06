@@ -1,8 +1,11 @@
 def line(katz_deli)
+  sentence = "The line is currently: "
   if katz_deli.length == 0
        puts "The line is currently empty."
-  else puts "The line is currently:" 
-    katz_deli.each.with_index(1) {|person, index| puts " #{index}. #{person} "}
+  else  
+    katz_deli.each.with_index(1) do |person, index| 
+      puts " #{sentence} #{index}. #{person} " 
+      end
   end
 end
 
